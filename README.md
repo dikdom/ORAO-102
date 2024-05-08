@@ -24,6 +24,9 @@ check the links above).
 I build the rev2 board for myself. I used a 7404 for IC14 and a 74LS165 for IC8. The remaining 74 logic ICs are 74HC
 class ICs.
 
+rev3 board is not manufactured/tried yet so... be the first one, and go where noone ever gone before... (but let me know the result!)
+
+
 ## Troubleshooting
 First check if the 74LS04 (or 7404) generates the 8MHz clock. I found a few conterfeit 74LS04 ICs that didn't work. 
 Don't even bother with 74HC04 or 74HCT04 chips, they won't work here.
