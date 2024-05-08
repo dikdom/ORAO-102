@@ -5,14 +5,21 @@ The source of all materials are here: http://www.deltasoft.com.hr/projects/orao2
 
 Also a lot of materials can be found here: https://github.com/mejs/orao
 
+I created rev2 because all the text were completely misaligned and I heard about the missing lines also in
+the video circuitry.
+
 The rev2 and rev3 materials both contains the 'missing lines' fix. Rev3 also contains fix for the pull-up of the 
 pin36 (BE line) of the WDC 65C02 CPU. In case of using a 65C02 CPU then R1 is advised to be populated.
+
+I created rev3 because I still messed up the texts on rev2 board, the pull-up is inserted and the R5 value is corrected. 
+The logic ICs shall not all be 74HCs. The clock and the pixel shift must be LS, the rest can be HC. You may use 74LS
+for the complete board. 
 
 On the ORAO2007 the keyboard connection header is a simple DIP16 socket. I added a second line of 1x8 header, so
 a 2x8 pin header (socket) also can be populated there - if that is more convenient. (for a keyboard PCB please
 check the links above).
 
-I build the rev2 board for myself. I used a 74LS04 for IC14 and a 74LS165 for IC8. The remaining 74 logic ICs are 74HC
+I build the rev2 board for myself. I used a 7404 for IC14 and a 74LS165 for IC8. The remaining 74 logic ICs are 74HC
 class ICs.
 
 ## Troubleshooting
