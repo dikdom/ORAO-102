@@ -13,7 +13,8 @@ pin36 (BE line) of the WDC 65C02 CPU. In case of using a 65C02 CPU then R1 shoul
 CPU is an NMOS 6502 (MOS, Rockwell) the pull-up doesn't interfere with the operation. 
 
 I created rev3 because I still messed up the texts on rev2 board, the pull-up is inserted and the R5 value is corrected.
-I added an extra pinheader line for the keyboard. 
+I added an extra pinheader line for the keyboard. I had to move everything from EagleCAD to KiCad. I'm not a big
+expert on that, so... 
 
 The clock (IC14) and the pixel shift IC (IC8) must be 7404/74165 (or LS), the rest can be HC. You may use 74LS for the complete board. 
 
