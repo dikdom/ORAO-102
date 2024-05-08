@@ -9,11 +9,13 @@ I created rev2 because all the text were completely misaligned and I heard about
 the video circuitry.
 
 The rev2 and rev3 materials both contains the 'missing lines' fix. Rev3 also contains fix for the pull-up of the 
-pin36 (BE line) of the WDC 65C02 CPU. In case of using a 65C02 CPU then R1 is advised to be populated.
+pin36 (BE line) of the WDC 65C02 CPU. In case of using a 65C02 CPU then R1 should be populated. If the
+CPU is an NMOS 6502 (MOS, Rockwell) the pull-up doesn't interfere with the operation. 
 
-I created rev3 because I still messed up the texts on rev2 board, the pull-up is inserted and the R5 value is corrected. 
-The logic ICs shall not all be 74HCs. The clock and the pixel shift must be LS, the rest can be HC. You may use 74LS
-for the complete board. 
+I created rev3 because I still messed up the texts on rev2 board, the pull-up is inserted and the R5 value is corrected.
+I added an extra pinheader line for the keyboard. 
+
+The clock (IC14) and the pixel shift IC (IC8) must be 7404/74165 (or LS), the rest can be HC. You may use 74LS for the complete board. 
 
 On the ORAO2007 the keyboard connection header is a simple DIP16 socket. I added a second line of 1x8 header, so
 a 2x8 pin header (socket) also can be populated there - if that is more convenient. (for a keyboard PCB please
@@ -24,9 +26,9 @@ class ICs.
 
 ## Troubleshooting
 First check if the 74LS04 (or 7404) generates the 8MHz clock. I found a few conterfeit 74LS04 ICs that didn't work. 
-Don't even try with 74HC04 or 74HCT04 chips, they won't work here.
+Don't even bother with 74HC04 or 74HCT04 chips, they won't work here.
 
-In case of clock present but black screen, check the 1MHz output of IC22 (pin 6). If there is 8MHz input but no output
+In case clock is present but screen is black, check the 1MHz output of IC22 (pin 6). If there is 8MHz input but no output
 then IC22 shall be replaced...
 
 Rev3 has tinted vias but please check your solderings. 
