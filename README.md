@@ -1,4 +1,4 @@
-# ORAO
+# ORAO 102
 This repository contains enhancements for the 2007 rebuild of the Yugoslavian ORAO computer.
 
 The source of all materials are here: http://www.deltasoft.com.hr/projects/orao2007.php?title=Orao%202007
