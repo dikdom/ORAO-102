@@ -5,7 +5,10 @@ The source of all materials are here: http://www.deltasoft.com.hr/projects/orao2
 
 Also a lot of materials can be found here: https://github.com/mejs/orao
 
-I created rev2 because all the text were completely misaligned and I heard about the missing lines also in
+Updated keyboard gerber with fixed (!) matrix can be found here: https://github.com/tothrick/orao-keyboard
+According to Rick the IC13 should be LS instead of HC because HC chips produces errors on keyboard input..
+
+I created rev2 orao motherboard because all the silk text was completely misaligned and I heard about the missing lines also in
 the video circuitry.
 
 The rev2 and rev3 materials both contains the 'missing lines' fix. Rev3 also contains fix for the pull-up of the 
