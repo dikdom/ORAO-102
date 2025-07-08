@@ -13,8 +13,7 @@ cart will work automagically.
 The Orao 103 computer must be turned on with the cart attached, preferably with the SD card inserted.
 
 ### HELP
-The cart can print a help screen in Serbo-Croatian and in English also. The command `COMM ""` prints the Serbo-Croation
-help screen, and the `COMM "?"` and `COMM "HELP"` commands prints the same message in English.
+The cart can print a help screen in Serbo-Croatian and in English also. The command `COMM ""` and `COMM "?"` print the Serbo-Croatian help screen, and the `COMM "HELP"` command prints the same message in English.
 
 ### BASIC Programs
 The BASIC programs are handled differently as the MEM files. Before loading or saving a BASIC file, the `DISK` BASIC command must
